@@ -2,28 +2,31 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+#define DEFAULT 0
+#define FUSION   1
+#define BT   2
 
 
 / {  
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        fusion_default_layer {
             bindings = <
-                &lt second ESC          &kp E           &kp DEL    
+                &lt FUSION ESC     &kp E           &kp DEL    
                 &kp P              &kp C           &kp L           
-                &lt bt M            &kp D           &kp LC(L)
+                &lt BT M           &kp D           &kp LC(L)
                          
                 
             >;
         }; 
 
 
-        second_layer {
+        fusion_second_layer {
             bindings = <
                 &trans             &kp LSHIFT      &kp LC(Z)    
                 &kp LC(Y)          &kp A           &trans           
-                &lt LC (Q)         &kp LC(P)       &trans
+                &lt LC(Q)          &kp LC(P)       &trans
                          
                 
             >;
