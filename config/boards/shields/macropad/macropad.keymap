@@ -3,8 +3,8 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define DEFAULT 0
-#define FUSION   1
-#define BT   2
+#define FUSION  1
+#define BT      2
 
 
 / {  
@@ -24,7 +24,7 @@
 
         fusion_second_layer {
             bindings = <
-                &trans             &kp LSHIFT      &kp LC(Z)    
+                                   &kp LSHIFT      &kp LC(Z)    
                 &kp LC(Y)          &kp A           &trans           
                 &lt LC(Q)          &kp LC(P)       &trans
                          
@@ -37,7 +37,7 @@
             bindings = <
                 &trans             &trans          &bootloader    
                 &trans             &trans          &bt BT_CLR     
-                &trans             &trans          &bt BT_SEL 0 
+                                 &trans          &bt BT_SEL 0 
                          
                 
             >;
