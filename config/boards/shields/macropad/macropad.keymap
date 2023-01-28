@@ -13,7 +13,7 @@
 
         fusion_default_layer {
             bindings = <
-                &lt FUSION ESC     &kp E           &kp DEL    
+                &kp ESC            &kp E           &kp DEL    
                 &kp P              &kp C           &kp L           
                 &lt BT M           &kp D           &kp LC(L)
                          
@@ -21,17 +21,6 @@
             >;
         }; 
 
-
-        fusion_second_layer {
-            bindings = <
-                                   &kp LSHIFT      &kp LC(Z)    
-                &kp LC(Y)          &kp A           &trans           
-                &lt LC(Q)          &kp LC(P)       &trans
-                         
-                
-            >;
-        }; 
-        
 
         bt_layer {
             bindings = <
