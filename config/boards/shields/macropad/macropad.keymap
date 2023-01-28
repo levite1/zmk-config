@@ -12,7 +12,7 @@
             bindings = <
                 &lt 1 ESC          &kp E           &kp DEL    
                 &kp P              &kp C           &kp L           
-                &kp M              &kp D           &kp LCTRL(L)
+                &kp M              &kp D           &kp LC(L)
                          
                 
             >;
