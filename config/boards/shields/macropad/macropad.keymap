@@ -3,8 +3,8 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define DEFAULT 0
-#define FUSION  1
-#define BT      2
+#define BT      1
+#define FUSION      2
 
 
 / {  
@@ -13,7 +13,7 @@
 
         fusion_default_layer {
             bindings = <
-                &kp ESC            &kp E           &kp DEL    
+                &lt FUSION  ESC    &kp E           &kp DEL    
                 &kp P              &kp C           &kp L           
                 &lt BT M           &kp D           &kp LC(L)
                          
@@ -30,6 +30,15 @@
                          
                 
             >;
+        };
+
+        fusion_layer{
+            bindings = <
+                                   &kp LSHIFT       &kp LC(Z)    
+                &kp LC(Y)          &kp LC(C)        &trans           
+                &kp LC(P)          &kp LC(Q)        &trans
+
+            >;   
         };
     };
 };
