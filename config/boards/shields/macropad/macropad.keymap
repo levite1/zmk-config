@@ -36,7 +36,7 @@
             bindings = <
                 &trans             &kp LSHIFT       &kp LC(Z)    
                 &kp LC(Y)          &kp LC(C)        &trans           
-                &kp LC(P)          &kp LC(Q)        &trans
+                &kp LC(V)          &kp LC(Q)        &trans
 
             >;   
         };
