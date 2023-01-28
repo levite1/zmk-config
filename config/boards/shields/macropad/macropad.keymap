@@ -22,7 +22,7 @@
             bindings = <
                 &trans             &kp LSHIFT      &kp LC(Z)    
                 &kp LC(Y)          &kp A           &trans           
-                &lt LC (Q)           &kp LC(P)     &trans
+                &lt LC (Q)         &kp LC(P)       &trans
                          
                 
             >;
@@ -31,9 +31,9 @@
 
         bt_layer {
             bindings = <
-                &trans     &trans      &bootloader    
-                &trans     &trans     &bt BT_CLR     
-                &trans     &trans     &bt BT_SEL 0 
+                &trans             &trans          &bootloader    
+                &trans             &trans          &bt BT_CLR     
+                &trans             &trans          &bt BT_SEL 0 
                          
                 
             >;
