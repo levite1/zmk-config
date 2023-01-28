@@ -10,7 +10,7 @@
             bindings = <
                 &mo 1         &kp A            &kp B    
                 &kp C         &kp D            &kp E           
-                &kp F         &kp G            &kp 
+                &kp F         &kp G            &kp H
                          
                 
             >;
