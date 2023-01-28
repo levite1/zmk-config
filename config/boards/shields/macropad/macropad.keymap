@@ -12,12 +12,23 @@
             bindings = <
                 &lt 1 ESC          &kp E           &kp DEL    
                 &kp P              &kp C           &kp L           
-                &kp M              &kp D           &kp LC(L)
+                &lt 2 M            &kp D           &kp LC(L)
+                         
+                
+            >;
+        }; 
+
+        second_layer {
+            bindings = <
+                &trans             &kp LSHIFT      &kp LC(Z)    
+                &kp LC(Y)          &kp A           &trans           
+                &lt LC (Q)           &kp LC(P)     &trans
                          
                 
             >;
         }; 
         
+
         bt_layer {
             bindings = <
                 &trans     &trans      &bootloader    
