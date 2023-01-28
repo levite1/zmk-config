@@ -26,7 +26,7 @@
             bindings = <
                 &trans             &trans          &bootloader    
                 &trans             &trans          &bt BT_CLR     
-                                 &trans          &bt BT_SEL 0 
+                &trans             &trans          &bt BT_SEL 0 
                          
                 
             >;
@@ -34,7 +34,7 @@
 
         fusion_layer{
             bindings = <
-                                   &kp LSHIFT       &kp LC(Z)    
+                &trans             &kp LSHIFT       &kp LC(Z)    
                 &kp LC(Y)          &kp LC(C)        &trans           
                 &kp LC(P)          &kp LC(Q)        &trans
 
