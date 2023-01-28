@@ -10,13 +10,14 @@
 
         default_layer {
             bindings = <
-                &lt 1 ESC          &kp E           &kp DEL    
+                &lt second ESC          &kp E           &kp DEL    
                 &kp P              &kp C           &kp L           
-                &lt 2 M            &kp D           &kp LC(L)
+                &lt bt M            &kp D           &kp LC(L)
                          
                 
             >;
         }; 
+
 
         second_layer {
             bindings = <
