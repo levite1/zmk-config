@@ -11,7 +11,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-         default_layer {
+        default_layer {
             bindings = <
                 &tog FUSION        &kp C_VOLUME_UP    &lt BT LC(T)    
                 &kp C_PREVIOUS     &kp K_PLAY_PAUSE   &kp C_NEXT           
@@ -21,18 +21,18 @@
             >;
         }; 
 
-         fusion_default_layer {
+        fusion_default_layer {
             bindings = <
                 &tog FUSION         &kp E           &kp DEL    
                 &kp L               &kp C           &kp P           
-                &kp LC(L)           m&kp D          &kp M
+                &kp LC(L)           &kp D           &kp M
                          
                 
             >;
         }; 
 
 
-         bt_layer {
+        bt_layer {
             bindings = <
                 &trans             &bootloader     &trans    
                 &trans             &trans          &bt BT_CLR     
