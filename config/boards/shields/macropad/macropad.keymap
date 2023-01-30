@@ -26,7 +26,7 @@
             bindings = <
                 &trans        &kp ENTER          &kp LC(W)    
                 &trans        &kp LC(X)          &kp LC(V)           
-                &trans        &kp C_VOLUME_DOWN  &kp LG((LS(S)))
+                &trans        &kp C_AL_NEXT_TASK  &kp LG((LS(S)))
                          
                 
             >;
@@ -37,7 +37,7 @@
             bindings = <
                 &tog FUSION         &kp E           &kp DEL    
                 &kp L               &kp C           &kp P           
-lel                        
+                        
                 
             >;
         }; 
