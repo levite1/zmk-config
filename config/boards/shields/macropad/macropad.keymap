@@ -24,7 +24,7 @@
 
         secondary_layer {
             bindings = <
-                & BACKSPACE      &kp ENTER         &kp LC(W)    
+                &kp BACKSPACE    &kp ENTER         &kp LC(W)    
                 &kp SPACE        &kp LG(SPACE)     &kp LC(V)           
                 &trans           &kp LC(X)         &kp LG((LS(S)))
                          
