@@ -11,11 +11,21 @@
     keymap {
         compatible = "zmk,keymap";
 
+         default_layer {
+            bindings = <
+                &tog FUSION        &kp C_VOLUME_UP    &lt BT LC(T)    
+                &kp C_PREVIOUS     &kp K_PLAY_PAUSE   &kp C_NEXT           
+                &kp LC(C)          &kp C_VOLUME_DOWN  &kp LC(V)
+                         
+                
+            >;
+        }; 
+
         fusion_default_layer {
             bindings = <
-                &lt FUSION  ESC    &kp E           &kp DEL    
-                &kp P              &kp C           &kp L           
-                &lt BT M           &kp D           &kp LC(L)
+                &tog FUSION  ESC    &kp E           &kp DEL    
+                &kp L               &kp C           &kp P           
+                &kp LC(L)           m&kp D          &kp M
                          
                 
             >;
@@ -32,13 +42,8 @@
             >;
         };
 
-        fusion_layer{
-            bindings = <
-                &trans             &kp LSHIFT       &kp LC(Z)    
-                &kp LC(Y)          &kp LC(C)        &trans           
-                &kp LC(V)          &kp LC(Q)        &trans
-
-            >;   
-        };
+    
     };
 };
+
+
