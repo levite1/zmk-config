@@ -14,9 +14,9 @@
 
         default_layer {
             bindings = <
-                &tog FUSION         &kp C_VOLUME_UP    &lt BT LC(T)    
+                &tog FUSION         &kp LA(TAB)        &lt BT LC(T)    
                 &kp C_PREVIOUS      &kp C_PLAY_PAUSE   &kp C_NEXT           
-                &lt SECONDARY LC(C) &kp C_VOLUME_DOWN  &kp LC(V)
+                &lt SECONDARY LC(C) &kp LC(X)          &kp LC(V)
                          
                 
             >;
