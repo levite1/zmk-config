@@ -14,9 +14,9 @@
 
         default_layer {
             bindings = <
-                &tog FUSION                &kp LC(TAB)           &lt BT LC(T)    
-                &kp LG(LEFT_ARROW)         &kp LG(TAB)           &kp LG(RIGHT_ARROW)          
-                &lt SECONDARY LC(C)        &kp LC((LS(TAB)))     &kp LC(V)
+                &tog FUSION                     &kp LC(TAB)           &lt BT LC(T)    
+                &mt ENTER LG(LEFT_ARROW)        &kp LG(TAB)           &kp ENTER LG(RIGHT_ARROW)          
+                &lt SECONDARY LC(C)             &kp LC((LS(TAB)))     &kp LC(V)
                          
                 
             >;
