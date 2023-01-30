@@ -37,7 +37,7 @@
             bindings = <
                 &tog FUSION         &kp E           &kp DEL    
                 &kp L               &kp C           &kp P           
-                        
+                &kp ESC             &kp LC(L)       &kp LSHIFT
                 
             >;
         }; 
