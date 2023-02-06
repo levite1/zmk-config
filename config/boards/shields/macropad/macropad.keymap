@@ -46,7 +46,7 @@
         bt_layer {
             bindings = <
                 &trans             &bootloader     &trans    
-                &trans             &trans          &bt BT_CLR     
+                &trans             &reset          &bt BT_CLR     
                 &trans             &trans          &bt BT_SEL 1 
                          
                 
