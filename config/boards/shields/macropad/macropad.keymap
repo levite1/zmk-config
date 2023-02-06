@@ -47,7 +47,7 @@
             bindings = <
                 &trans             &bootloader     &trans    
                 &trans             &trans          &bt BT_CLR     
-                &trans             &trans          &bt BT_SEL 0 
+                &trans             &trans          &bt BT_SEL 1 
                          
                 
             >;
