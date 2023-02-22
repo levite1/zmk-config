@@ -5,7 +5,8 @@
 #define DEFAULT   0
 #define SECONDARY 1
 #define FUSION    2
-#define BT        3
+#define FUSION2   3
+#define BT        4
 
 
 / {  
@@ -35,19 +36,30 @@
 
         fusion_default_layer {
             bindings = <
-                &tog FUSION         &kp E           &kp DEL    
-                &kp L               &kp C           &kp P           
-                &kp ESC             &kp LC(L)       &kp LSHIFT
+                &tog FUSION               &kp E           &kp DEL    
+                &kp L                     &kp C           &kp P           
+                &lt FUSION2 ESC           &kp LC(L)       &kp LSHIFT
                 
             >;
         }; 
+
+        fusion_2nd_layer {
+            bindings = <
+                &trans              &kp D           &kp M    
+                &trans              &kp LC(Z)       &kp F           
+                &trans              &kp O           &kp LS(C)
+                
+            >;
+        }; 
+
+
 
 
         bt_layer {
             bindings = <
                 &trans             &bootloader     &trans    
                 &trans             &reset          &bt BT_CLR     
-                &trans             &trans          &bt BT_SEL 1 
+                &trans             &trans          &bt BT_SEL 0 
                          
                 
             >;
